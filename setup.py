@@ -4,7 +4,7 @@ with open("DESCRIPTION.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='humai_utils',
+    name='primer_paquete',
     version='0.1.0',
     author='Ramiro Savoie',
     author_email='ramiro@deployr.ai',
@@ -16,6 +16,6 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/institutohumai/humai_utils/issues"
     },
     license='MIT',
-    packages=['humai_utils'],
+    packages=['primer_paquete'],
     install_requires=['requests'],
 )
